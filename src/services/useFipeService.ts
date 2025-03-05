@@ -3,7 +3,7 @@ import { fetchData } from "@/utils/fetchData";
 
 export const useFipeService = () => {
   const [loading, setLoading] = useState(false);
-  
+
   const getFipePrice = useCallback(
     async (brandCode: string, modelCode: string, yearCode: string) => {
       setLoading(true);
@@ -22,5 +22,5 @@ export const useFipeService = () => {
     []
   );
 
-  return useMemo(() => ({ getFipePrice, loading }), [loading]);
+  return useMemo(() => ({ getFipePrice, loading }), [loading, getFipePrice]);
 };

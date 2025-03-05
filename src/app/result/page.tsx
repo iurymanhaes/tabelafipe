@@ -36,7 +36,7 @@ export default function ResultPage() {
     } finally {
       setLoading(false);
     }
-  }, [brand, model, year]);
+  }, [brand, model, year, router, getFipePrice]);
 
   useEffect(() => {
     fetchPrice();
