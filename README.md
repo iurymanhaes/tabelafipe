@@ -24,6 +24,7 @@ Este é um projeto desenvolvido em Next.js 15 com React, TypeScript e Material-U
 
 
 📂 src
+
  ┣ 📂 components          # Componentes reutilizáveis como Autocomplete e Botões
  
  ┣ 📂 contexts            # Context API e Reducer para gerenciamento de estado
@@ -46,11 +47,11 @@ Este é um projeto desenvolvido em Next.js 15 com React, TypeScript e Material-U
 
 🛠 Instalação e Execução
 
-git clone  https://github.com/iurymanhaes/tabela-fipe.git
+git clone  https://github.com/iurymanhaes/tabelafipe.git
 
 2️⃣ Instalar Dependências
 
-cd tabela-fipe
+cd tabelafipe
 
 npm install
 
@@ -70,4 +71,4 @@ yarn dev
 
 
 O projeto foi implantado na Vercel para melhor acessibilidade e performance.
-🔗 URL do projeto:
+🔗 URL do projeto: tabelafipe-pied.vercel.app
